@@ -9,6 +9,16 @@ const Dashboard = () => {
     { course: "History", grade: "B" },
     { course: "Science", grade: "A-" },
   ];
+  const gradesData1 = [
+    { course: "Mathematics", grade: "A" },
+    { course: "History", grade: "B" },
+    { course: "Science", grade: "A-" },
+  ];
+  const gradesData2 = [
+    { course: "Mathematics", grade: "A" },
+    { course: "History", grade: "B" },
+    { course: "Science", grade: "A-" },
+  ];
 
   const alertsData = [
     {
@@ -16,7 +26,23 @@ const Dashboard = () => {
       course: "English",
       message: "Reported 3 days ago",
     },
-    { type: "Low Grade", course: "Physics", message: "Current grade is C" },
+    { 
+      type: "Low Grade", 
+      course: "Physics", 
+      message: "Current grade is C" 
+    },
+  ];
+  const alertsData1 = [
+    {
+      type: "Missing Grade",
+      course: "Science",
+      message: "Reported 10 days ago",
+    },
+    { 
+      type: "Low Grade", 
+      course: "Biology", 
+      message: "Current grade is F" 
+    },
   ];
 
   return (
@@ -34,6 +60,13 @@ const Dashboard = () => {
             </li>
           ))}
         </ul>
+        <ul>
+          {gradesData.map((grade, index) => (
+            <li key={index}>
+              <strong>{grade.course}:</strong> {grade.grade}
+            </li>
+          ))}
+        </ul>
       </div>
 
       {/* Alerts Section */}
@@ -41,6 +74,15 @@ const Dashboard = () => {
         <h3>Alerts and Notifications</h3>
         <ul>
           {alertsData.map((alert, index) => (
+            <li key={index}>
+              <strong>{alert.type}:</strong> {alert.course} - {alert.message}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="alerts-section">
+        <ul>
+          {alertsData1.map((alert, index) => (
             <li key={index}>
               <strong>{alert.type}:</strong> {alert.course} - {alert.message}
             </li>

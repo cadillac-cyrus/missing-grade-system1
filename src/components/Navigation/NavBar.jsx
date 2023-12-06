@@ -8,7 +8,8 @@ function NavBar() {
       <header className="header">
         <nav>
           <div className="logo">
-            <img src={logo} alt="logo" />
+            {/* <img src={logo} alt="logo" /> */}
+            <h1><strong><d className="a">M</d><b className="b">G</b><c className="c">S</c></strong></h1>
           </div>
           <ul>
             <li>

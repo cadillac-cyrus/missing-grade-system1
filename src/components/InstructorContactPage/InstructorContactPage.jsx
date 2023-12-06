@@ -10,6 +10,12 @@ const InstructorContactPage = () => {
     { name: "Dr. Michael Johnson", email: "michael.johnson@example.com" },
   ];
 
+  const instructorsData1 = [
+    { name: "Prof. Rejina Daniels", email: "Reji.Daniels@gmail.com" },
+    { name: "Prof. Ernest Barns", email: "Ernest.Barns@outlook.com" },
+    { name: "Dr. Gifty Ryan", email: "Gifty.ryan@example.com" },
+  ];
+
   const sendEmail = (instructor) => {
     // Simulate sending an email (Replace with actual email sending logic)
     console.log(`Sending email to ${instructor.name} at ${instructor.email}`);
@@ -26,6 +32,16 @@ const InstructorContactPage = () => {
       {/* Instructors List */}
       <ul className="instructors-list">
         {instructorsData.map((instructor, index) => (
+          <li key={index}>
+            <strong>{instructor.name}</strong>
+            <br />
+            Email: {instructor.email}
+            <button onClick={() => sendEmail(instructor)}>Send Email</button>
+          </li>
+        ))}
+      </ul>
+      <ul className="instructors-list">
+        {instructorsData1.map((instructor, index) => (
           <li key={index}>
             <strong>{instructor.name}</strong>
             <br />

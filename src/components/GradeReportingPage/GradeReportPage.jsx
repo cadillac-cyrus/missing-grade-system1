@@ -8,6 +8,14 @@ const GradeReportPage = () => {
     { course: "Mathematics", grade: "A", semester: "Fall 2022" },
     { course: "History", grade: "B", semester: "Fall 2022" },
     { course: "Science", grade: "A-", semester: "Spring 2023" },
+    { course: "English", grade: "C-", semester: "Fall 2022" },
+    { course: "Economics", grade: "A+", semester: "Spring 2023" },
+    { course: "Physics", grade: "A-", semester: "Fall 2022" },
+    { course: "Chemistry", grade: "B+", semester: "Spring 2023" },
+    { course: "Biology", grade: "A-", semester: "Spring 2023" },
+    { course: "Music", grade: "A-", semester: "Fall 2022" },
+    { course: "French", grade: "C-", semester: "Spring 2023" },
+    { course: "Spanish", grade: "D+", semester: "Fall 2022" },
   ];
 
   return (

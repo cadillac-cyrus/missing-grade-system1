@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/Navigation/NavBar";
+import Footer from "./components/footer/footer";
 import LandingPage from "./components/landingPage/LandingPage";
 import LoginPage from "./components/login/LoginPage";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -39,6 +40,7 @@ const App = () => {
             <Route path="/help-and-support" element={<HelpAndSupportPage />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
     </>
   );

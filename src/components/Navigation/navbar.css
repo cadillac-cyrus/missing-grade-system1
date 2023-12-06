@@ -45,6 +45,23 @@ a:hover {
   color: #2c3e50;
 }
 
+h1 {
+  display: flex;
+  margin-top: 0px;
+}
+
+.a {
+  color: red;
+}
+
+.b {
+  color: white;
+}
+
+.c {
+  color: black;
+}
+
 /* Media query for small screens */
 @media only screen and (max-width: 600px) {
   nav {

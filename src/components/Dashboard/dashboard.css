@@ -22,6 +22,7 @@
 .grades-section,
 .alerts-section {
   margin-top: 40px;
+  width: 100%;
 }
 
 .grades-section h3,
