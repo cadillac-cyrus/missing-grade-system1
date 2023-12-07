@@ -11,11 +11,28 @@ const HelpAndSupportPage = () => {
       <div className="faq-section">
         <h3>Frequently Asked Questions</h3>
         <ul>
-          <li>Q: How do I report a missing grade?</li>
           <li>
-            A: Navigate to the "Missing Grade Form" page and fill out the form.
+            Q: My grades are not showing up on the site. What should I do?
           </li>
-          {/* Add more FAQ items as needed */}
+          <li>
+            A: If your grades are not displaying, please ensure that you have logged in with the correct credentials. If the issue persists, contact your school's administration or the support team for further assistance.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Q: Are there any known technical issues affecting the site's performance?
+          </li>
+          <li>
+            A: Check the site's status page for information on any ongoing technical issues. If there are no reported issues and you're still facing problems, contact our support team for further investigation.
+          </li>
+        </ul>
+        <ul>
+          <li>
+            Q: How do I report a missing grade?
+          </li>
+          <li>
+          A: To report a missing grade, navigate to the "Missing Grade Form" page. Fill out the form with the required details, including the course name, instructor name, expected grade, and an explanation. Click the submit button to report the missing grade.
+          </li>
         </ul>
       </div>
 

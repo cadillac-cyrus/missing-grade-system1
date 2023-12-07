@@ -61,7 +61,7 @@ const Dashboard = () => {
           ))}
         </ul>
         <ul>
-          {gradesData.map((grade, index) => (
+          {gradesData1.map((grade, index) => (
             <li key={index}>
               <strong>{grade.course}:</strong> {grade.grade}
             </li>
