@@ -23,13 +23,14 @@
 .alerts-section {
   margin-top: 40px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .grades-section h3,
 .alerts-section h3 {
   font-size: 20px;
   color: #3498db;
-  margin-bottom: 10px;
+  margin-bottom: 31px;
 }
 
 ul {
@@ -60,6 +61,7 @@ ul li {
   .grades-section,
   .alerts-section {
     margin-top: 20px;
+    margin-bottom: 25px;
   }
 
   .grades-section h3,
@@ -89,6 +91,7 @@ ul li {
   .grades-section,
   .alerts-section {
     margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   .grades-section h3,
@@ -98,34 +101,5 @@ ul li {
 
   ul li {
     font-size: 15px;
-  }
-}
-
-/* Media query for large screens */
-@media only screen and (min-width: 1025px) {
-  .dashboard-container {
-    max-width: 1000px;
-  }
-
-  .heading {
-    font-size: 26px;
-  }
-
-  .overview {
-    font-size: 19px;
-  }
-
-  .grades-section,
-  .alerts-section {
-    margin-top: 50px;
-  }
-
-  .grades-section h3,
-  .alerts-section h3 {
-    font-size: 22px;
-  }
-
-  ul li {
-    font-size: 17px;
   }
 }

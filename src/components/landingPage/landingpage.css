@@ -43,6 +43,14 @@
   color: #34495e;
 }
 
+ol {
+  list-style-type: none;
+}
+
+.lst {
+  font-weight: bolder;
+}
+
 /* Media query for small screens */
 @media only screen and (max-width: 600px) {
   .container {

@@ -13,16 +13,29 @@
   margin-bottom: 20px;
 }
 
-.faq-section,
+/* .faq-section, */
 .contact-form-section {
   margin-top: 40px;
 }
 
-.faq-section h3,
+/* .faq-section h3,
 .contact-form-section h3 {
   font-size: 20px;
   color: #3498db;
   margin-bottom: 10px;
+} */
+
+.faq-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.faq-section th,
+.faq-section td {
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+  text-align: left;
 }
 
 ul {
