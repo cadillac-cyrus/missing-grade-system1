@@ -1,4 +1,5 @@
 import React from "react";
+import imageSrc from './img1.jpeg';
 import "./landingpage.css";
 function LandingPage() {
   return (
@@ -7,6 +8,7 @@ function LandingPage() {
         <h1 className="heading">
           Welcome to the Missing Grade Reporting System
         </h1>
+        <img src={imageSrc} alt="System Illustration" className="landing-image" />
         <p className="description">
           This system is designed to help students track and report grades that
           are not recorded in their academic profiles. Use the navigation links
