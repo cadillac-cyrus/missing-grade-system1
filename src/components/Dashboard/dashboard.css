@@ -44,6 +44,19 @@ ul li {
   color: #34495e;
 }
 
+.grade-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.grade-section th,
+.grade-section td {
+  border: 1px solid #bdc3c7;
+  padding: 10px;
+  text-align: left;
+}
+
 /* Media query for small screens */
 @media only screen and (max-width: 600px) {
   .dashboard-container {

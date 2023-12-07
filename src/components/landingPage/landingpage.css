@@ -4,7 +4,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .heading {
@@ -12,12 +12,15 @@
   color: #2c3e50;
   margin-bottom: 20px;
   text-align: left;
+  margin-top: 100px;
+  padding: 15px;
 }
 
 .description {
   font-size: 18px;
   color: #7f8c8d;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .features {
@@ -36,15 +39,12 @@
   font-size: 24px;
   color: #2c3e50;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .feature-description {
   font-size: 16px;
   color: #34495e;
-}
-
-ol {
-  list-style-type: none;
 }
 
 .lst {

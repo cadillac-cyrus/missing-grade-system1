@@ -3,19 +3,18 @@ import React from "react";
 import "./GradeReportPage.css"; // Create this file for styling
 
 const GradeReportPage = () => {
-  // Sample data (replace with actual data from your application)
   const gradeReportData = [
-    { course: "Mathematics", grade: "A", semester: "Fall 2022" },
-    { course: "History", grade: "B", semester: "Fall 2022" },
-    { course: "Science", grade: "A-", semester: "Spring 2023" },
-    { course: "English", grade: "C-", semester: "Fall 2022" },
-    { course: "Economics", grade: "A+", semester: "Spring 2023" },
-    { course: "Physics", grade: "A-", semester: "Fall 2022" },
-    { course: "Chemistry", grade: "B+", semester: "Spring 2023" },
-    { course: "Biology", grade: "A-", semester: "Spring 2023" },
-    { course: "Music", grade: "A-", semester: "Fall 2022" },
-    { course: "French", grade: "C-", semester: "Spring 2023" },
-    { course: "Spanish", grade: "D+", semester: "Fall 2022" },
+    { course: "Mathematics", grade: "A", semester: "1st Semester" },
+    { course: "History", grade: "B", semester: "3rd Semester" },
+    { course: "Science", grade: "A-", semester: "2st Semester" },
+    { course: "English", grade: "C-", semester: "1st Semester" },
+    { course: "Economics", grade: "A+", semester: "2st Semester" },
+    { course: "Physics", grade: "A-", semester: "3rd Semester" },
+    { course: "Chemistry", grade: "B+", semester: "2st Semester" },
+    { course: "Biology", grade: "A-", semester: "3rd Semester" },
+    { course: "Music", grade: "A-", semester: "1st Semester" },
+    { course: "French", grade: "C-", semester: "2st Semester" },
+    { course: "Spanish", grade: "D+", semester: "3rd Semester" },
   ];
 
   return (
@@ -25,14 +24,13 @@ const GradeReportPage = () => {
         Detailed view of all courses and respective grades.
       </p>
 
-      {/* Filter Section (Placeholder, replace with actual filter options) */}
       <div className="filter-section">
         <label htmlFor="semester">Filter by Semester:</label>
         <select id="semester" name="semester">
           <option value="all">All Semesters</option>
-          <option value="fall2022">Fall 2022</option>
-          <option value="spring2023">Spring 2023</option>
-          {/* Add more options as needed */}
+          <option value="1st Semester">1st Semester</option>
+          <option value="2st Semester">2st Semester</option>
+          <option value="3rd Semester">3rd Semester</option>
         </select>
       </div>
 
@@ -58,6 +56,7 @@ const GradeReportPage = () => {
         </table>
       </div>
     </div>
+    
   );
 };
 

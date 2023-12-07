@@ -110,3 +110,59 @@
     font-size: 15px;
   }
 } */
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .instructor-contact-container {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .overview {
+    font-size: 16px;
+  }
+
+  .instructors-list li {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .instructors-list strong {
+    font-size: 16px;
+  }
+
+  .instructors-list button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .instructor-contact-container {
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .overview {
+    font-size: 16px;
+  }
+
+  .instructors-list li {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .instructors-list strong {
+    font-size: 16px;
+  }
+
+  .instructors-list button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

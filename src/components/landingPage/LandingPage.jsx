@@ -33,10 +33,10 @@ function LandingPage() {
             <h3 className="">How it works</h3>
             <p className="feature-description">
               <ol>
-                <li><no className="lst">1.</no> Access the Form: Find the dedicated "Report Missing Grades" section on the home page.</li>
-                <li><no className="lst">2.</no> Fill Out the Form: Complete a simple form providing essential details such as the course name, instructor name, expected grade, and an explanation for the missing grade.</li>
-                <li><no className="lst">3.</no> Submit with Confidence: Click the submit button to initiate the reporting process. Receive a confirmation message indicating the successful submission</li>
-                <li><no className="lst">3.</no> Stay Informed: Keep track of your submitted reports and receive timely alerts on the dashboard to address any unrecorded grades efficiently.</li>
+                <li> Access the Form: Find the dedicated "Report Missing Grades" section on the home page.</li>
+                <li> Fill Out the Form: Complete a simple form providing essential details such as the course name, instructor name, expected grade, and an explanation for the missing grade.</li>
+                <li> Submit with Confidence: Click the submit button to initiate the reporting process. Receive a confirmation message indicating the successful submission</li>
+                <li> Stay Informed: Keep track of your submitted reports and receive timely alerts on the dashboard to address any unrecorded grades efficiently.</li>
                 
               </ol>
             </p>

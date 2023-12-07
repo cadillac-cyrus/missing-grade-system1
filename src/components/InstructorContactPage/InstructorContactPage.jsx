@@ -7,13 +7,11 @@ const InstructorContactPage = () => {
   const instructorsData = [
     { name: "Dr. John Doe", email: "john.doe@example.com" },
     { name: "Prof. Jane Smith", email: "jane.smith@example.com" },
-    { name: "Dr. Michael Johnson", email: "michael.johnson@example.com" },
   ];
 
   const instructorsData1 = [
     { name: "Prof. Rejina Daniels", email: "Reji.Daniels@gmail.com" },
     { name: "Prof. Ernest Barns", email: "Ernest.Barns@outlook.com" },
-    { name: "Dr. Gifty Ryan", email: "Gifty.ryan@example.com" },
   ];
 
   const sendEmail = (instructor) => {
@@ -36,6 +34,7 @@ const InstructorContactPage = () => {
             <strong>{instructor.name}</strong>
             <br />
             Email: {instructor.email}
+            <br />
             <button onClick={() => sendEmail(instructor)}>Send Email</button>
           </li>
         ))}
@@ -46,6 +45,7 @@ const InstructorContactPage = () => {
             <strong>{instructor.name}</strong>
             <br />
             Email: {instructor.email}
+            <br />
             <button onClick={() => sendEmail(instructor)}>Send Email</button>
           </li>
         ))}

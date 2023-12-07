@@ -4,15 +4,18 @@ import "./dashboard.css"; // Import the CSS file
 
 const Dashboard = () => {
   // Sample data (replace with actual data from your application)
-  const gradesData = [
+  // const gradesData = [
+  //   { course: "Mathematics", grade: "A" },
+  //   { course: "History", grade: "B" },
+  //   { course: "Science", grade: "A-" },
+  // ];
+  const gradeData = [
     { course: "Mathematics", grade: "A" },
-    { course: "History", grade: "B" },
     { course: "Science", grade: "A-" },
-  ];
-  const gradesData1 = [
-    { course: "Mathematics", grade: "A" },
-    { course: "History", grade: "B" },
-    { course: "Science", grade: "A-" },
+    { course: "English", grade: "C-" },
+    { course: "Physics", grade: "A-" },
+    { course: "Chemistry", grade: "B+" },
+    { course: "Biology", grade: "A-" },
   ];
 
   const alertsData = [
@@ -36,13 +39,32 @@ const Dashboard = () => {
       {/* Grades Section */}
       <div className="grades-section">
         <h3>Your Current Grades</h3>
-        <ul>
+        {/* <ul>
           {gradesData.map((grade, index) => (
             <li key={index}>
               <strong>{grade.course}:</strong> {grade.grade}
             </li>
           ))}
-        </ul>
+        </ul> */}
+        <div className="grade-section">
+        <table>
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th>Grade</th>
+            </tr>
+          </thead>
+          <tbody>
+            {gradeData.map((entry, index) => (
+              <tr key={index}>
+                <td>{entry.course}</td>
+                <td>{entry.grade}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        </div>
+        
       </div>
 
       {/* Alerts Section */}

@@ -1,7 +1,7 @@
 /* src/components/missingGradeFormPage/MissingGradeFormPage.css */
 
 .missing-grade-form-container {
-  max-width: 800px;
+  width: 70%;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -51,6 +51,7 @@ textarea {
   cursor: pointer;
   font-size: 16px;
   margin-bottom: 50px;
+  margin-left: 10px;
 }
 
 .submit-button:hover {
